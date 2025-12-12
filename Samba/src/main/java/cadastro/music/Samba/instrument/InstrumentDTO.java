@@ -17,7 +17,7 @@ public class InstrumentDTO {
     private String type;
 
 
-    private String intrument;
+    private String instrument;
 
     private String brand;
 

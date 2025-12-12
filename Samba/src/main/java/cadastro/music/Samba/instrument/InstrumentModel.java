@@ -24,13 +24,17 @@ public class InstrumentModel {
     private String type;
 
     @Column(name = "instrument")
-    private String intrument;
+    private String instrument;
 
     @Column(name = "brand")
     private String brand;
 
+
     @Column(name = "Year manufacture")
     private int manufacture;
+
+    @Column(name = "Imge")
+    private String imge;
 
     @OneToOne
     @JoinColumn(name = "musican")
